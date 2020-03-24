@@ -52,3 +52,5 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.4.1'
 
 gem 'brandino_view_tool', git: 'git@github.com:brandonnouhavandi/brandino_view_tool.git'
+
+gem 'petergate', '~> 1.7'
