@@ -9,7 +9,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
 
       ##custom fields 
 
-      t.string :name 
+      t.string :name
     
 
       ## Recoverable
