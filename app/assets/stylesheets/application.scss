@@ -162,15 +162,26 @@ body {
 }
 
 /*
-*Custom Styles
-*/
+ * Custom Styles
+ */
 
 .card-block {
-  color: black; 
+  color: black;
   text-align: left;
 }
 
 .auth-links a {
-  color: black; 
-
+  color: black;
 }
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 16rem;
+  margin: 0 auto;
+  float: none;
+}
+
+  
