@@ -54,3 +54,5 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'brandino_view_tool', git: 'git@github.com:brandonnouhavandi/brandino_view_tool.git'
 
 gem 'petergate', '~> 1.7'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'

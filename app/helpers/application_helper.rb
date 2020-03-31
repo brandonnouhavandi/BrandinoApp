@@ -21,3 +21,5 @@ def copyright_generator
   BrandinoViewTool::Renderer.copyright 'Brandon Nouhavandi', 'All rights reserved'
   end 
 end 
+
+include FontAwesome::Rails::IconHelper
