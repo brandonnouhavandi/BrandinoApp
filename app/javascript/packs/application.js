@@ -10,9 +10,6 @@ require("channels")
 
 //= require jquery 
 //= require boostrap-sprockets
-//= require jquery_ujs
-//= require jquery-ui
-//= require html.sortable
 //= require_tree . 
 
 
