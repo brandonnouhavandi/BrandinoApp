@@ -1,4 +1,4 @@
-module CurrentUserConcern
+module CurrentUserHelper
   extend ActiveSupport::Concern
 
   def current_user
@@ -14,3 +14,4 @@ module CurrentUserConcern
     guest
   end
 end
+
