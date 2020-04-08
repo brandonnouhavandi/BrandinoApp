@@ -1,3 +1,3 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
-//= link homebackground.mp4
+//= link beachvideo.mp4
