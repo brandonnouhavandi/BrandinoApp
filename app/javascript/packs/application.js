@@ -10,6 +10,7 @@ require("channels")
 
 //= require jquery 
 //= require boostrap-sprockets
+//= require cocoon 
 //= require_tree . 
 
 
