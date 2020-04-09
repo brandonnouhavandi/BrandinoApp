@@ -70,3 +70,5 @@ gem 'carrierwave', '~> 2.1'
 gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
+
+gem 'twitter', '~> 7.0'
