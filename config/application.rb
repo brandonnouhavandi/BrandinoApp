@@ -25,5 +25,6 @@ module BrandinoApp
     config.eager_load_paths << "#{Rails.root}/lib"
     config.load_defaults 6.0
     config.generators.system_tests = nil
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end
