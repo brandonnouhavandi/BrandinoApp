@@ -219,3 +219,12 @@ background-size: cover;
 .tech-news a {
   color: green;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left; 
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
