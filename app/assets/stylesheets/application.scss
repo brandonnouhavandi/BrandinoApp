@@ -203,3 +203,19 @@ transform: translateX(-50%) translateY(-50%);
 background: img-url('citywide.mp4') no-repeat; 
 background-size: cover;
 }
+
+
+.tech-news {
+  color: black;
+  margin: 20px;
+  font-size: 10px;
+}
+
+.tech-news > .card {
+  padding: 30px;
+  font-size: 10px;
+}
+
+.tech-news a {
+  color: green;
+}

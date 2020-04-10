@@ -72,3 +72,7 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 
 gem 'twitter', '~> 7.0'
+
+gem 'redcarpet', '~> 3.5'
+
+gem 'coderay', '~> 1.1', '>= 1.1.2' 
