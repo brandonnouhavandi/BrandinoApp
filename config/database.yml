@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: BrandinoApp_production
-  username: BrandinoApp
-  password: <%= ENV['BRANDINOAPP_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
