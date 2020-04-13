@@ -4,13 +4,12 @@ module PortfoliosHelper
   end
 
   def portfolio_img img, type
-  	if img.main_image || img.thumb_image
+  	if img.main_image? || img.thumb_image?
   		if img.main_image? && type == 'main'
 	      	img.main_image.url
 	    elsif img.thumb_image? && type == 'thumb'
 			img.thumb_image.url
   		end
-
 	else
 	  	if type == 'thumb'
 	      image_generator(height: '350', width: '200')
