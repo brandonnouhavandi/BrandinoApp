@@ -7,6 +7,7 @@ class PortfoliosController < ApplicationController
 
 
   def index
+    puts "ddd===>>>>#{current_user.roles}"
     @portfolio_items = Portfolio.all
   end
 
